@@ -5,9 +5,10 @@ import styles from "./styles"; // Importando o objeto styles do arquivo styles.j
 
 function Exemplo1 () {
   return (
-    <View styles={styles.container}>
+    <View style={styles.container}>
 
-      <Text>Exemplo1</Text>
+      <Text style={styles.titulo}>Exemplo1</Text>
+      <Text style={styles.texto}>aula de introdução ao expo</Text>
 
     </View>
 

@@ -3,13 +3,14 @@ import { StyleSheet, Text, View } from 'react-native'; // Importando os componen
 
 import Constants from 'expo-constants'; // Importando o pacote Constants do expo
 
-import Exemplos1 from './src/exemplos/ex-01'; // Importando o componente Exemplo1
+import Exemplo1 from './src/exemplos/ex-01';
 
+       //exemplos atividades
 export default function App() {
   return (
     <View style={styles.container}>
-     <Exemplos1 />
-      <StatusBar style="dark" />
+      <Exemplo1 />
+      <StatusBar style="light" />
     </View>
   );
 }
@@ -18,9 +19,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#000',
-    //alignItems: 'center',
-   //justifyContent: 'center',
-    marginTop: Constants.statusBarHeight || 12,
+  //   alignItems: 'center',
+  //  justifyContent: 'center',
+   padding : 8,
+  paddingTop: Constants.statusBarHeight || 8,
 
   },
 });
