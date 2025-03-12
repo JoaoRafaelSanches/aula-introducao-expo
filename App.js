@@ -3,13 +3,14 @@ import { StyleSheet, Text, View } from 'react-native'; // Importando os componen
 
 import Constants from 'expo-constants'; // Importando o pacote Constants do expo
 
+import Atividade1 from './src/atvidades/atividade-01'; // Importando o componente Atividade1 do arquivo atividade-01/index.js
 import Exemplo1 from './src/exemplos/ex-01';
 
        //exemplos atividades
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo1 />
+      <Atividade1/>
       <StatusBar style="light" />
     </View>
   );
