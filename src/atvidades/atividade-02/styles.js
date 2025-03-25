@@ -38,11 +38,21 @@ const styles = StyleSheet.create
 
     imagem:
     {
-        height: RFPercentage(10),
-        width: RFPercentage(10),
+        height: RFPercentage(5),
+        width: RFPercentage(5),
+        justifyContent: 'left',
         //width: '100%',
-        //resizeMode: 'contain'
-    }
+        resizeMode: 'contain'
+    },
+    titulo2:
+    {
+        fontSize: RFPercentage(3),
+        color: 'black',
+        fontWeight: 'bold',
+        textAlign: 'center',
+        textAlignVertical: 'center',
+        
+    },
 })
 
 export default styles
