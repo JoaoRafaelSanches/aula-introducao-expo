@@ -13,19 +13,19 @@ function Atividade2() {
     <View style={styles.container}>
        <Text style={styles.titulo2}>Atividade 02</Text>
       <Mensagem 
-        titulo="Pokemon Box Display Coroa Estelar" 
-        mensagem="R$ 450,90" 
+        titulo="Pokemon Box Display Coroa Estelar"  
         imagem={cartas1} 
+        mensagem="R$ 450,90" 
       />
       <Mensagem 
         titulo="Pokémon, Box Display Fabulas Nebulosas" 
-        mensagem="R$ 300,90" 
         imagem={cartas2} 
+        mensagem="R$ 300,90" 
       />
       <Mensagem 
         titulo="Pokémon, Box Display Realeza Absoluta" 
-        mensagem="R$ 350,90" 
         imagem={cartas3} 
+        mensagem="R$ 350,90" 
       />
       <Mensagem 
         titulo="Pokémon, Box Display Escarlate E Violeta" 

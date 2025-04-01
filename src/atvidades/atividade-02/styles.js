@@ -34,6 +34,8 @@ const styles = StyleSheet.create
     {
         fontSize: RFPercentage(2.2),
         color: '#000',
+        textAlignVertical:'bottom',
+        justifyContent: 'flex-end',
     },
 
     imagem:
