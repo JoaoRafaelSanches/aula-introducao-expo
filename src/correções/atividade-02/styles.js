@@ -3,7 +3,7 @@ import { RFPercentage } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: 'purple', 
+        backgroundColor: '#fff', 
         padding: 8, 
         flex: 1, 
         alignItems: 'center', 
@@ -11,10 +11,10 @@ const styles = StyleSheet.create({
     }, 
     titulo: {
         fontSize: RFPercentage(3), 
-        color: 'black', 
+        color: 'deepskyblue', 
         fontWeight: 'bold', 
         borderWidth: 2, 
-        borderColor: 'black', 
+        borderColor: 'deepskyblue', 
         marginTop: 10, 
         marginBottom: 10, 
         padding: 8, 
@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
         textAlign: 'center', 
         textAlignVertical: 'center', 
         borderRadius: 20,
-        backgroundColor: 'white',
     }, 
 });
 
 export default styles;
+
