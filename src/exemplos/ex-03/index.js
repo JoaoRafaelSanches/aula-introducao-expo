@@ -10,7 +10,7 @@ function Exemplo3 () {
       <Text style={styles.titulo}>Exemplo3</Text>
       <Text style={styles.texto}>aula de introdução ao expo</Text>
       <Button
-         onPress={()=>{}}
+         onPress={() => {}}
          title="Alerta"
          color="deepskyblue"
          accessibilityLabel="mensagem de alerta"
