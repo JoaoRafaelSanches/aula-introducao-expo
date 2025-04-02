@@ -13,7 +13,7 @@ import Atividade1 from './src/atvidades/atividade-01'; // Importando o component
 import Atividade2 from './src/atvidades/atividade-02';
 
 //correções
-import CorrecaoAtividade2 from './src/correções/corr_atividade2'
+//import CorrecaoAtividade2 from './src/correções/corr_atividade2';
 
        
 export default function App() {
