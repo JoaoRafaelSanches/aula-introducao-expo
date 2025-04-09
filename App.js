@@ -7,6 +7,7 @@ import Constants from 'expo-constants'; // Importando o pacote Constants do expo
 import Exemplo1 from './src/exemplos/ex-01';
 import Exemplo2 from './src/exemplos/ex-02';
 import Exemplo3 from './src/exemplos/ex-03';
+import Exemplo4 from './src/exemplos/ex-04';
 
 //atividades
 import Atividade1 from './src/atvidades/atividade-01'; // Importando o componente Atividade1 do arquivo atividade-01/index.js
@@ -20,7 +21,7 @@ import Atividade3 from './src/atvidades/atividade-03';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade3/>
+      <Exemplo4/>
       <StatusBar style="light" />
     </View>
   );
