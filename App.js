@@ -13,6 +13,7 @@ import Exemplo4 from './src/exemplos/ex-04';
 import Atividade1 from './src/atvidades/atividade-01'; // Importando o componente Atividade1 do arquivo atividade-01/index.js
 import Atividade2 from './src/atvidades/atividade-02';
 import Atividade3 from './src/atvidades/atividade-03';
+import Atividade4 from './src/atvidades/atividade-04'; // Importando o componente Atividade1 do arquivo atividade-01/index.js
 
 //correções
 //import CorrecaoAtividade2 from './src/correções/corr_atividade2';
@@ -21,7 +22,7 @@ import Atividade3 from './src/atvidades/atividade-03';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo4/>
+      <Atividade4/>
       <StatusBar style="light" />
     </View>
   );

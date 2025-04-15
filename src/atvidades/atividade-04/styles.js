@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   },
   texto: {
     fontSize: RFPercentage(2.2),
-    color: 'deepskyblue',
+    color: '#abfa88',
   },
   input:{
     borderWidth: RFPercentage(0.2),

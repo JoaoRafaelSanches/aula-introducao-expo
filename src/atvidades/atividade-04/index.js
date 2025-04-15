@@ -6,20 +6,22 @@ import styles from "./styles"; // Importando o objeto styles do arquivo styles.j
 
 
 
-function Exemplo4 () {
+function Atividade4 () {
   const[txtInserido, setTxtInserido] = useState('');
   const[txtExibido, setTxtExibido] = useState('');
   return (
     
     <View style={styles.container}>
 
-      <Text style={styles.titulo}>Exemplo4</Text>
-      <Text style={styles.texto}>{txtInserido}</Text>
+      <Text style={styles.titulo}>Atividade4</Text>
+      <Text styles={styles.texto}> NOME </Text>
       <TextInput style={styles.input} 
         onChangeText={(valor) =>setTxtInserido(valor)}/>
 
-      <Text style={styles.titulo}>exemplo envie dados botão: </Text>
-      <Text style={styles.texto}> {txtExibido}</Text>
+      <Text styles={styles.texto}> SOBRENOME </Text>
+      <TextInput style={styles.input} 
+        onChangeText={(valor2) =>setTxtInserido(valor2)}/>
+
       <TouchableOpacity style={styles.botao}
         onPress={() => {
           setTxtExibido(txtInserido);
@@ -34,4 +36,4 @@ function Exemplo4 () {
   );
 }
 
-export default Exemplo4; // Exportando o componente Exemplo1
+export default Atividade4; // Exportando o componente Exemplo1
