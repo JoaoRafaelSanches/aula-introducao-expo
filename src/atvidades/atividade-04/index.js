@@ -8,25 +8,32 @@ import styles from "./styles"; // Importando o objeto styles do arquivo styles.j
 
 function Atividade4 () {
   const[txtInserido, setTxtInserido] = useState('');
+  const[txtInserido2, setTxtInserido2] = useState('');
   const[txtExibido, setTxtExibido] = useState('');
   return (
     
     <View style={styles.container}>
+      
 
-      <Text style={styles.titulo}>Atividade4</Text>
+      <Text style={styles.titulo}>Atividade 4</Text>
       <Text styles={styles.texto}> NOME </Text>
       <TextInput style={styles.input} 
+       value ={txtInserido}
         onChangeText={(valor) =>setTxtInserido(valor)}/>
 
       <Text styles={styles.texto}> SOBRENOME </Text>
       <TextInput style={styles.input} 
-        onChangeText={(valor2) =>setTxtInserido(valor2)}/>
-
+       value ={txtInserido2}
+        onChangeText={(valor) =>setTxtInserido2(valor)}/>
+        
+      <Text styles={styles.texto}> {txtExibido} </Text>
       <TouchableOpacity style={styles.botao}
         onPress={() => {
-          setTxtExibido(txtInserido);
+          setTxtExibido(txtInserido + ' ' + txtInserido2);
+          setTxtInserido('');
+          setTxtInserido2('');
         }}>
-        <Text style={styles.txtBotao}>Exibir texto digitado 
+        <Text style={styles.txtBotao}>Exibir nome completo
         </Text>
 
         </TouchableOpacity>

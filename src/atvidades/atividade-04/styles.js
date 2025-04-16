@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     fontSize: RFPercentage(3),
     fontWeight: 'bold',
     borderWidth: 2,
-    borderColor: 'deepskyblue',
+    borderColor: '#abfa88',
     marginTop: 10,
     marginBottom:10,
     padding: 8,
@@ -22,7 +22,10 @@ const styles = StyleSheet.create({
     height: 80,
   },
   texto: {
+    padding: RFPercentage(1),
     fontSize: RFPercentage(2.2),
+    alignItems: 'center',
+    justifyContent: 'center',
     color: '#abfa88',
   },
   input:{
@@ -31,6 +34,7 @@ const styles = StyleSheet.create({
     fontSize: RFPercentage(2),
     margin:RFPercentage(2),
     borderRadius:RFPercentage(1),
+    padding: RFPercentage(1),
     },
     txtBotao: {
       fontSize: RFPercentage(2), 
