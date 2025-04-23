@@ -4,7 +4,7 @@ import styles from "./styles"; // Importando o objeto styles do arquivo styles.j
 
 import { useState } from "react"; // Importando o hook useState do react
 
-function Exemplo5() {
+function Atividade5() {
 
   const [n1, setN1] = useState(0);
   const [n2, setN2] = useState(0);
@@ -14,6 +14,21 @@ function Exemplo5() {
     setResultado(parseInt(n1) + parseInt(n2));
     // setResultado(resultado.toString());
   }
+  function menos() {
+    setResultado(parseInt(n1) - parseInt(n2));
+    // setResultado(resultado.toString());
+  }
+  function vezes() {
+    setResultado(parseInt(n1) * parseInt(n2));
+    // setResultado(resultado.toString());
+  }
+  function dividido() {
+    setResultado(parseInt(n1) / parseInt(n2));
+    // setResultado(resultado.toString());
+  }
+  function handleLimpar () {
+    setResultado(0);
+}
   
   return (
 
@@ -47,16 +62,36 @@ function Exemplo5() {
         value={resultado.toString()} 
         KeyboardType='numeric'/>
 
-      <TouchableOpacity style={styles.botao} onPress={() => calcular()}>        
-        <Text style={styles.txtBotao}>Calcular</Text>
+        
+      <View style={styles.grupo}>
+
+      <TouchableOpacity style={styles.botao2} onPress={() => calcular()}>        
+        <Text style={styles.txtBotao}>+</Text>
       </TouchableOpacity> 
+
+      <TouchableOpacity style={styles.botao2} onPress={() => menos()}>
+        <Text style={styles.txtBotao}>-</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.botao2} onPress={() => vezes()}>
+        <Text style={styles.txtBotao}>x</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.botao2} onPress={() => dividido()}>
+        <Text style={styles.txtBotao}>/</Text>
+      </TouchableOpacity>
+      </View>
+
+      <TouchableOpacity style={styles.botao} onPress={handleLimpar}>
+                <Text style={styles.txtBotao}>Limpar</Text>
+      </TouchableOpacity>
+
 
 
 
 
     </View>
-
   );
 }
 
-export default Exemplo5; // Exportando o componente Exemplo1
+export default Atividade5; // Exportando o componente Exemplo1

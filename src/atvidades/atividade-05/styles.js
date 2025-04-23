@@ -58,8 +58,27 @@ const styles = StyleSheet.create({
     color: '#E91E63',
     borderRadius: 10,
     marginTop: 10,
+    bordercolor: "black",
+    borderWidth: 3,
 
   },
+  grupo:{
+    display:"flex",
+    flexDirection:"row",
+  },
+  botao2: {
+    backgroundColor: '#E91E63', 
+    width: '20%', 
+    // height: RFPercentage(4), 
+    borderRadius: RFPercentage(6), 
+    alignItems: 'center', 
+    justifyContent: 'center', 
+    padding: 2,
+    margin:8,
+    borderWidth: 3,
+    bordercolor: "black",
+  },
+  
 });
 
 

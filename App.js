@@ -15,7 +15,7 @@ import Atividade1 from './src/atvidades/atividade-01'; // Importando o component
 import Atividade2 from './src/atvidades/atividade-02';
 import Atividade3 from './src/atvidades/atividade-03';
 import Atividade4 from './src/atvidades/atividade-04'; // Importando o componente Atividade1 do arquivo atividade-01/index.js
-
+import Atividade5 from './src/atvidades/atividade-05'; // Importando o componente Atividade1 do arquivo atividade-01/index.js
 //correções
 //import CorrecaoAtividade2 from './src/correções/corr_atividade2';
 
@@ -23,7 +23,7 @@ import Atividade4 from './src/atvidades/atividade-04'; // Importando o component
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo5/>
+      <Atividade5/>
       <StatusBar style="light" />
     </View>
   );
